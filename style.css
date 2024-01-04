@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 104, 76);
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    cursor: pointer;
+    color: white;
+    padding: 15px 10px;
+    
+}
+.nav-bar{
+    display: flex;
+    list-style-type: none;
+    
+    
+    
+
+}
+.nav-bar li a{
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+
+   
+    
+}
+.nav-bar li a:hover{
+    color: rgb(209, 23, 23);
+}
+button{
+    padding:9px 25px ;
+    background-color: aqua;
+    border:none;
+    border-radius: 50px;
+}
+button:hover{
+      background:rgb(54, 187, 187,0.8 );
+      
+
+}
+div{
+    background: url(l5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-weight: bold;
+    
+
+}
